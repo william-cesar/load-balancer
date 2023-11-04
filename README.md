@@ -15,6 +15,13 @@ the `round_robin` algorithm to distribute the traffic.
 
 ### How to use
 
+- Create a .env file with the following variables:
+
+```bash
+ENV=local
+```
+- Run
+
 ```bash
 $ docker-compose up -d
 ```
