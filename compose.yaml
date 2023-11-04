@@ -7,12 +7,12 @@ services:
       args:
         - ENVIRONMENT=${ENVIRONMENT}
     ports:
-      - 8050:8050
+      - 8052:8052
   server-one:
     image: nginx:stable
     ports:
-      - 8051:8051
+      - 8050:8050
   server-two:
     image: nginx:stable
     ports:
-      - 8052:8052
+      - 8051:8051

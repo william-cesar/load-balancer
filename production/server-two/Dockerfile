@@ -1,3 +1,3 @@
 FROM nginx:stable
 
-EXPOSE 8052
+EXPOSE 8051
