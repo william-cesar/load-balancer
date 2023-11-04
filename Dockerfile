@@ -1,6 +1,6 @@
 FROM nginx:stable
 
-ARG ENVIRONMENT
+ARG ENVIRONMENT=production
 
 COPY ./static /usr/share/nginx/html
-COPY ./nginx.${ENVIRONMENT}.conf /etc/nginx/nginx.conf
+COPY ./${ENVIRONMENT}/nginx.conf /etc/nginx/nginx.conf
