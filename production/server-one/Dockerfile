@@ -1,3 +1,3 @@
 FROM nginx:stable
 
-EXPOSE 8050
+COPY ./nginx.conf /etc/nginx/nginx.conf
