@@ -1,4 +1,4 @@
-## <div><img align="center" style="margin-right: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx logo" height="80"/>Load Balancer</div>
+## <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx logo" height="70"/>  Load Balancer
 
 This is a load balancer visualization created on top of Nginx. The load balancer is
 able to distribute traffic to the servers based on the load of the servers. It uses 
