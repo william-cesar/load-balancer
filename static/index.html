@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nginx Load Balancer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Nginx Load Balancer</h1>
+  <section>
+    <div id="servers">
+      <label>
+        <img id="server-one" src="./svg/server.svg" alt="server-one">
+        Server One
+      </label>
+      <label>
+        <img id="server-two" src="./svg/server.svg" alt="server-two">
+        Server Two
+      </label>
+    </div>
+    <div id="gateway">
+      <div id="server-arrows">
+        <div id="server-one-arrows" class="">
+          <img class="arrow outlined" src="./svg/left-arrow-outlined.svg" alt="left-arrow-outlined">
+          <img class="arrow thick" src="./svg/left-arrow-thick.svg" alt="left-arrow-thick">
+        </div>
+        <div id="server-two-arrows" class="">
+          <img class="arrow outlined" src="./svg/left-arrow-outlined.svg" alt="left-arrow-outlined">
+          <img class="arrow thick" src="./svg/left-arrow-thick.svg" alt="left-arrow-thick">
+        </div>
+      </div>
+      <div id="gateway-img-container" class="">
+        <img id="gateway-img" src="./svg/gateway.svg" alt="gateway">
+        <img id="gateway-error" src="./svg/gateway-error.svg" alt="gateway-error">
+      </div>
+      <div id="client-gateway-arrows">
+        <div id="client-arrows" class="">
+          <img class="arrow outlined" src="./svg/left-arrow-outlined.svg" alt="left-arrow-outlined">
+          <img class="arrow thick" src="./svg/left-arrow-thick.svg" alt="left-arrow-thick">
+        </div>
+      </div>
+    </div>
+    <div id="client" class="">
+      <label>
+        <img id="client-regular" src="./svg/client.svg" alt="client">
+        <img id="client-success" src="./svg/client-success.svg" alt="client-success">
+        <img id="client-error" src="./svg/client-error.svg" alt="client-error">
+        Client
+      </label>
+      <button id="request-data">Request data</button>
+    </div>
+  </section>
+  <p id="data" class=""></p>
+</body>
+<script src="index.js"></script>
+</html>
