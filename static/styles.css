@@ -232,6 +232,7 @@ button:disabled {
 #data {
   font-size: 1.5rem;
   margin-top: 2rem;
+  min-height: 2rem;
   color: var(--green);
 }
 
