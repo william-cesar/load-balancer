@@ -3,6 +3,8 @@ version: '3'
 services:
   main-server:
     build: .
+    environment:
+      - ENV=${ENV}
     ports:
       - 8050:8050
   server-one:

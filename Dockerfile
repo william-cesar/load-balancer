@@ -1,4 +1,6 @@
 FROM nginx:stable
 
+ARG ENV="production"
+
 COPY ./static /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx.${ENV}.conf /etc/nginx/nginx.conf
