@@ -16,7 +16,7 @@ the `round_robin` algorithm to distribute the traffic.
 ### How to use
 
 ```bash
-$ ENVIRONMENT=local docker-compose up -d
+$ docker-compose up -d
 ```
 
 ### References

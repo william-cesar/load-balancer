@@ -4,15 +4,15 @@ services:
   main-server:
     build:
       context: ./
-      args:
-        - ENVIRONMENT=${ENVIRONMENT}
-    ports:
-      - 8052:8052
-  server-one:
-    image: nginx:stable
     ports:
       - 8050:8050
-  server-two:
-    image: nginx:stable
+  server-one:
+    build:
+      context: ./server-one
     ports:
       - 8051:8051
+  server-two:
+    build:
+      context: ./server-two
+    ports:
+      - 8052:8052
